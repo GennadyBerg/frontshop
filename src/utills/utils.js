@@ -2,7 +2,7 @@ const getFullImageUrl = (image) =>
     getFullBackendUrl(`/${image?.url}`);
 
 const getFullBackendUrl = (path) =>
-    `http://127.0.0.1:3030${path}`;
+    `https://bergshop.herokuapp.com${path}`;
     //`http://shop-roles.node.ed.asmer.org.ua${path}`;
 
 
